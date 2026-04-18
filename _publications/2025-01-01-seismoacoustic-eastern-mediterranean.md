@@ -4,6 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-seismoacoustic-eastern-mediterranean
 excerpt: 'Seismoacoustic analysis of eastern Mediterranean earthquake records toward establishing a tsunami early warning system for Egypt.'
+description: "Seismoacoustic monitoring of eastern Mediterranean earthquakes for tsunami early warning system development in Egypt using IMS infrasound data."
+keywords: "seismoacoustic monitoring, Mediterranean earthquakes, tsunami early warning, Egypt, IMS infrasound, seismic hazard"
 date: 2025-01-01
 venue: 'Scientific Reports'
 paperurl: 'https://doi.org/10.1038/s41598-025-22494-1'

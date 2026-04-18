@@ -4,6 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publication/2022-hayabusa2-reentry-campaign
 excerpt: 'Description of the international scientific observation campaign coordinated for the Hayabusa-2 sample return capsule re-entry into Earth atmosphere.'
+description: "International scientific observation campaign for the Hayabusa2 sample return capsule re-entry, including infrasound and optical monitoring networks."
+keywords: "Hayabusa2, reentry campaign, sample return capsule, infrasound monitoring, scientific observation"
 date: 2022-04-02
 venue: 'Publications of the Astronomical Society of Japan'
 paperurl: 'https://doi.org/10.1093/pasj/psab126'
