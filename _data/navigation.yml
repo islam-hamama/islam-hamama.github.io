@@ -20,9 +20,6 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
 
-  - title: "Orion Map"
-    url: /orion-map/
-    
   - title: "CV"
     url: /cv/
     

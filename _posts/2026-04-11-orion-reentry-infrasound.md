@@ -34,11 +34,16 @@ Infrasound monitoring is a powerful, passive tool for tracking atmospheric reent
 
 ## Interactive Trajectory Map
 
-An interactive map of the Orion capsule trajectory and the infrasound detection geometry is available here:
+The map below shows the splashdown location, the I57US station position, the estimated back-azimuth, and the propagation path of the acoustic signal.
 
-👉 [**View Interactive Trajectory Map**](/orion-map/)
-
-The map shows the splashdown location, the I57US station position, the estimated back-azimuth, and the propagation path of the acoustic signal.
+<div style="width:100%; height:70vh; border:1px solid #ccc; border-radius:4px; overflow:hidden; margin: 1em 0;">
+  <iframe src="/Orion_2026_interactive_map.html"
+          width="100%"
+          height="100%"
+          frameborder="0"
+          allowfullscreen>
+  </iframe>
+</div>
 
 ---
 
