@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: "Islam Hamama — Infrasound & Seismoacoustics Researcher"
+description: "Islam Hamama is an infrasound and seismoacoustics researcher at NRIAG, Egypt, with 12+ years of expertise in seismic data processing, infrasound propagation modeling, and IMS monitoring of earthquakes, meteors, and explosions."
+keywords: "Islam Hamama, infrasound researcher, seismoacoustics, NRIAG, infrasound propagation modeling, seismo-acoustic monitoring, IMS data, geophysics, Egypt"
 author_profile: true
 redirect_from: 
   - /about/

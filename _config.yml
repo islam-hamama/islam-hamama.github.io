@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Islam Hamama / Personal Website"
 title_separator          : "-"
 name                     : &name "Islam Hamama"
-description              : &description "Islam Hamama's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Islam Hamama — Infrasound & Seismoacoustics researcher at NRIAG, Egypt. 12+ years expertise in infrasound propagation modeling, seismo-acoustic monitoring, and IMS data processing for natural and man-made source characterization."
 url                      : https://i-hamama.com # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -92,7 +92,7 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : "profile.png"  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -143,14 +143,18 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "profile.png"  # Social media default site image
+og_description           : "Islam Hamama — Infrasound & Seismoacoustics researcher at NRIAG, Egypt. Expert in infrasound propagation modeling, seismo-acoustic monitoring, and IMS data processing."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : Islam Hamama
+  links:
+    - https://scholar.google.com/citations?user=kSuWv7MAAAAJ&hl=en&oi=ao
+    - https://orcid.org/0000-0001-9296-412X
+    - https://github.com/islam-hamama
+    - https://www.linkedin.com/in/islam-hamama-84052a1b9
 
 
 # Analytics
