@@ -6,16 +6,15 @@ author_profile: true
 
 ## Al Amal Program — IT Advisor
 
-**Role:** IT Advisor  
-**Period:** September 2020 – present  
-**Organization:** Al Amal Program — volunteering initiative for fresh Geoscience graduates of Egypt
+### Related Posts
 
-Implemented a fully **virtualized computing environment** enabling fresh graduates to carry out scientific work remotely on virtual machines. This drove the digital transformation of the entire program, giving participants across Egypt access to professional geoscience software without the need for expensive local hardware.
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6937978045257396224" height="570" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-Key contributions:
-- Configured and managed virtual machines accessible via remote desktop
-- Designed network and access-control infrastructure for multi-user remote access
-- Provided fresh graduates access to seismology, GIS, and data analysis tools
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6883265986024366080" height="570" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6986146786528681984" height="570" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6883269850928685059" height="570" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 ---
 
