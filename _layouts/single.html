@@ -14,6 +14,33 @@ layout: default
   {% endunless %}
 {% endif %}
 
+{% if page.collection == 'publications' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: page.excerpt | jsonify }},
+  "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  {% if page.paperurl %}"sameAs": {{ page.paperurl | jsonify }},{% endif %}
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ page.venue | jsonify }}
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Islam Hamama",
+    "url": "{{ site.url }}",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=kSuWv7MAAAAJ",
+      "https://orcid.org/0000-0001-9296-412X"
+    ]
+  }
+}
+</script>
+{% endif %}
+
 <div id="main" role="main">
   {% include sidebar.html %}
 
