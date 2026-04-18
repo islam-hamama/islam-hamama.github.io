@@ -13,3 +13,7 @@ citation: '<b>Hamama, I.</b>, and Yamamoto, M.Y. (2021). &quot;Infrasonic Earthq
 ---
 
 [Access paper](https://doi.org/10.3390/s21030894)
+
+## Abstract
+
+The Kochi University of Technology (KUT) Infrasound Sensor Network contains 30 infrasound sensors distributed across Japan, especially Shikoku Island, each co-installed with three-axis accelerometers. This study investigates all possibilities for infrasound detection generated from earthquakes using the KUT network and IMS stations for earthquakes detected in southern Japan during 2019. For earthquakes with strike-slip mechanisms, P-waves could not be detected by our sensors. The conversion from seismic to acoustic waves via T-phase generation was observed for oceanic earthquakes. On May 9, 2019, PMCC analysis captured infrasound and hydroacoustic waves from two Kyushu Island earthquakes at H11N near Wake Island. Infrasound propagation modeling using the AVO-G2S atmosphere profile confirmed infrasound arrivals, supported by 3D ray tracing and transmission loss calculations using normal modes and parabolic equation methods.

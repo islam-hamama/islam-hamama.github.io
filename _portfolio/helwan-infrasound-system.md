@@ -2,6 +2,9 @@
 title: "Remote Infrasound Monitoring System — Helwan, Egypt"
 excerpt: "Establishment of a 4G full remote-monitoring infrasound station at the NRIAG Helwan Observatory."
 collection: portfolio
+header:
+  image: helwan-station-deployment.jpg
+  teaser: helwan-station-deployment.jpg
 ---
 
 ## Overview

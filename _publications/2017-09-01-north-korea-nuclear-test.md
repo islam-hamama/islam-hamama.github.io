@@ -13,3 +13,7 @@ citation: 'Gaber, H., Elkholy, S., Abdelazim, M., <b>Hamama, I.H.</b>, and Othma
 ---
 
 [Access paper](https://doi.org/10.1016/j.nrjag.2017.09.002)
+
+## Abstract
+
+On September 9, 2016, a seismic event of mb 5.3 took place in North Korea, reported as a nuclear test. We applied discriminant techniques to distinguish between explosions and earthquakes on the Korean Peninsula. The discrimination methods include seismic source location, source depth, frequency content differences, complexity versus spectral ratio, and Ms-mb differences. The event was located at the North Korea nuclear test site at zero depth, consistent with a nuclear explosion. Comparison of P-wave spectra and application of the Brune theoretical model showed that the explosion exhibits a larger corner frequency than a comparable earthquake. The complexity and spectral ratio method yielded an observed classification percentage of ~81%, and the mb:Ms method further confirmed the explosive source nature.

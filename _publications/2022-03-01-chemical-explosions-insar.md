@@ -13,3 +13,7 @@ citation: '<b>Hamama, I.</b>, Yamamoto, M., Elgabry, M.N., Ismail, N., Saber, H.
 ---
 
 [Access paper](https://doi.org/10.1121/10.0009406)
+
+## Abstract
+
+Chemical explosions are ground truth events that enhance understanding of wave propagation, damage assessment, and yield estimation. On August 4, 2020, Beirut was struck by a catastrophic explosion, and on March 21, 2019, a strong explosion occurred at the Xiangshui, China chemical plant. Both events generated shock waves that transitioned to infrasound and seismic waves. In this work, the seismo-acoustic signatures, yields, and associated damage are investigated. Differential InSAR analysis quantified surface damage and estimated TNT-equivalent yields (Beirut: 202–270 ± 100 tons; Xiangshui: 201 ± 83.5 tons). Infrasound propagation modeling identified a strong stratospheric duct westward for Beirut and tropospheric propagation toward the KUT sensor network for Xiangshui. Despite the similar yields, near-source damage areas were almost the same for both events.

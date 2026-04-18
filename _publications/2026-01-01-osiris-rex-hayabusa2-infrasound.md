@@ -13,3 +13,7 @@ citation: 'Nishikawa, Y., <b>Hamama, I.</b>, Elbehiri, H.S., Hasumi, Y., Sansom,
 ---
 
 [Access paper](https://doi.org/10.1093/pasj/psaf156)
+
+## Abstract
+
+The atmospheric entry of meteoroids presents a rare and unpredictable phenomenon, whereas sample return capsules (SRCs) follow well-constrained re-entry trajectories, enabling planned observations of shock wave generation and propagation. This study compares two SRC atmospheric entries — Hayabusa2 (2020) and OSIRIS-REx (2023) — to assess how different infrasound array configurations influence shock wave detection and trajectory validation. Hayabusa2's re-entry was monitored using 28 portable infrasound sensors across seven arrays in Woomera, Australia, enabling 3D trajectory reconstruction. For OSIRIS-REx, a compact four-sensor array near Eureka Airport provided trajectory confirmation through arrival-time differences and back-azimuth estimates. Spectral and waveform analyses revealed signal property differences associated with entry angle and velocity variations. Results show that even small arrays located close to the ground track can capture useful arrival direction and timing information, providing practical guidance for future SRC observational campaigns.

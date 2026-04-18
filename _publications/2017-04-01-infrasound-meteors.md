@@ -13,3 +13,7 @@ citation: 'ElGabry, M.N., Korrat, I.M., Hussein, H.M., and <b>Hamama, I.H.</b> (
 ---
 
 [Access paper](https://doi.org/10.1016/j.nrjag.2017.04.004)
+
+## Abstract
+
+Meteorites that penetrate the atmosphere generate infrasound waves of very low frequency content. These waves can be detected even at large distances. In this study, we analyzed the infrasound waves produced by three meteors: the October 7, 2008 TC3 meteor over the Nubian Desert, the February 15, 2013 Russian fireball, and the February 6, 2016 Atlantic meteor near Brazil. The signals were detected by IMS (International Monitoring System) infrasound sensors of the CTBTO. The progressive Multi Channel Technique (PMCC) was applied to locate the infrasound sources. The meteorite infrasound signals show a sudden change in pressure with azimuth due to track variation at different atmospheric heights. Our deduced locations correlate well with those from the CTBTO IDC catalogues.

@@ -13,3 +13,7 @@ citation: 'Batubara, M., Yamamoto, M., <b>Hamama, I.</b>, Lathif, M., Fathrio, I
 ---
 
 [Access paper](https://doi.org/10.3934/geosci.2023035)
+
+## Abstract
+
+Thunderstorm activity on March 25, 2023 provided a unique opportunity to study the mechanism of lightning events on air pressure changes. This paper presents comprehensive results from infrasound sensors, satellite data, weather radar, and ground meteorology measurements. Lightning events were confirmed using data from the International Space Station's Lightning Imaging Sensor (ISS LIS). Three spectral percentile values were estimated on infrasonic sensor data alongside meteorology profiles, weather radar reflectivity, and total radiant energy from ISS LIS. The recorded infrasound signal in the 0.6–0.8 Hz range was contaminated by background noise, but the 1–3 Hz band was consistent with storm-generated high-energy pulses. Infrasound and electromagnetic lightning detections showed good correlation up to 100 km from the infrasonic station. ISS LIS detected more than 2,000 lightning events during direct overflight of the observation site.

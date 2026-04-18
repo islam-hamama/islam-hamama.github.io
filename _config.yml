@@ -42,8 +42,8 @@ author:
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
-  researchgate     : # URL
-  scopus           : # URL
+  researchgate     : "https://www.researchgate.net/profile/Islam-Hamama"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57221734822"
   zotero           : # URL
 
 
