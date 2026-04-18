@@ -2,6 +2,9 @@
 title: "Remote Infrasound Monitoring System — Perth, Australia"
 excerpt: "Design and deployment of a 4G remote infrasound monitoring system integrated with Desert Fireball Network cameras for meteor detection."
 collection: portfolio
+header:
+  image: perth-array-field.jpg
+  teaser: perth-array-field.jpg
 ---
 
 ## Overview
