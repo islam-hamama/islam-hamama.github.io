@@ -4,8 +4,6 @@ permalink: /volunteering/
 author_profile: true
 ---
 
-## Al Amal Program — IT Advisor
-
 ### Related Posts
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6937978045257396224" height="570" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
