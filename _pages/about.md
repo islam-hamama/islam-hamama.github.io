@@ -17,7 +17,6 @@ My research focuses on **infrasound propagation modeling**, seismo-acoustic moni
 - Seismo-acoustic monitoring of natural hazards (earthquakes, volcanic eruptions, meteors, bolides)
 - IMS infrasound data processing and source verification
 - Remote infrasound monitoring system design and deployment
-- InSAR analysis for surface deformation studies
 
 ## Recent Highlights
 
