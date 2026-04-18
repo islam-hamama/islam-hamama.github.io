@@ -4,8 +4,6 @@ permalink: /cv/
 author_profile: true
 ---
 
-[Download full CV (PDF)](/files/CV_Hamama_2026.pdf)
-
 ## Professional Experience
 
 | Period | Position | Institution |
@@ -140,7 +138,4 @@ author_profile: true
 
 ## References
 
-- **Prof. Masa-yuki Yamamoto** — [yamamoto.masa-yuki@kochi-tech.ac.jp](mailto:yamamoto.masa-yuki@kochi-tech.ac.jp) — PhD advisor, Kochi University of Technology, Japan
-- **Dr. Eleanor K. Sansom** — [Eleanor.sansom@curtin.edu.au](mailto:Eleanor.sansom@curtin.edu.au) — Senior Research Fellow, Curtin University; Director of Global Fireball Observatory
-- **Prof. Saito Hiroaki** — [saito.hiroaki@me.com](mailto:saito.hiroaki@me.com) — Junior Associate Professor, Hakodate Otani College, Japan
-- **Prof. Roger Waxler** — [rwax@olemiss.edu](mailto:rwax@olemiss.edu) — Principal Scientist, National Center for Physical Acoustics, University of Mississippi, USA
+Available upon request.

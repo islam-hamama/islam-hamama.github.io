@@ -30,5 +30,3 @@ My research focuses on **infrasound propagation modeling**, seismo-acoustic moni
 I completed my **Ph.D. in Engineering** at Kochi University of Technology, Japan (2019–2022), supervised by Prof. Masa-yuki Yamamoto. I was then a **Postdoctoral Researcher** at Kochi University of Technology (2022–2023) and a **Postdoctoral Research Associate** at the National Center for Physical Acoustics, University of Mississippi, USA (2023–2024). I am currently affiliated with NRIAG, Egypt.
 
 I am a recipient of the Egypt-Japan Education Partnership (**EJEP-3**) Full Ph.D. Scholarship and an outstanding presentation award at ISFT 2019, Thailand.
-
-[Download CV (PDF)](/files/CV_Hamama_2026.pdf){: .btn .btn--info}
