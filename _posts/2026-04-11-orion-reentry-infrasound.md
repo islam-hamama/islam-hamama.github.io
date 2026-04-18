@@ -2,6 +2,8 @@
 title: "Acoustic Detection of the Artemis II Orion Capsule Re-entry"
 date: 2026-04-11
 permalink: /posts/2026/04/orion-reentry-infrasound/
+header:
+  og_image: "orion-waveform.png"
 tags:
   - infrasound
   - Artemis II
