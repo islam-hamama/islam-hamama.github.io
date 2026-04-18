@@ -4,23 +4,17 @@ excerpt: "Media coverage of Hayabusa-2 detection, CTBTO YPN profile, awards, and
 description: "Islam Hamama's science outreach activities including media coverage of Hayabusa-2 re-entry detection, CTBTO Young Professionals Network profile, awards, and public science engagement."
 keywords: "Islam Hamama outreach, CTBTO YPN, Hayabusa2 detection, infrasound outreach, science communication, NRIAG"
 collection: portfolio
-header:
-  teaser: award-2021.jpg
 ---
 
 ## Awards & Recognition
 
 ### NRIAG Excellence Award (2021)
 
-![NRIAG Excellence Award Ceremony 2021](/images/award-2021.jpg)
-
 Recipient of the **National Research Institute of Astronomy and Geophysics (NRIAG) Excellence Award** (2021) in recognition of outstanding research contributions in geophysics and infrasound monitoring.
 
 ---
 
 ### Al Amal Science Program Award
-
-![Al Amal Award](/images/alamal-award.jpg)
 
 Recognized for contributions to the **Al Amal Science Education Program**, an initiative aimed at promoting scientific literacy and geophysics education among Egyptian youth.
 
@@ -60,8 +54,6 @@ Featured in the **YPN Stories** series by the CTBTO Preparatory Commission as *"
 ## Field Research & International Collaboration
 
 ### Perth Infrasound Deployment — Australia (2022)
-
-![Perth Infrasound Array Deployment](/images/perth-array-field.jpg)
 
 Recipient of the **ISEE (Nagoya University) International Travel Support** grant (470,000 JPY) for the field research project: *Seismo-acoustic and optical observations of meteors over Perth, Australia*. The project involved deploying a remote infrasound monitoring system integrated with Desert Fireball Network cameras in Perth — the system remains operational to date.
 
