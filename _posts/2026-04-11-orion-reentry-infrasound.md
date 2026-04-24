@@ -22,7 +22,7 @@ Interesting shockwave signals were recorded at **I57US** (33.60585°N, 116.4532�
 
 The signal arrived at **00:12:51 UTC** — approximately 5 minutes and 51 seconds after splashdown — with a back-azimuth of **223°**, consistent with the capsule's splashdown zone. The estimated source distance was **120–150 km** from the station.
 
-As the Orion capsule decelerated through the atmosphere, it reached **Mach 1**, generating the shockwave that propagated as infrasound and was picked up by the IMS network.
+As the Orion capsule decelerated through the atmosphere, it reached **Mach 4-5**, generating the shockwave that propagated as infrasound and was picked up by the IMS network.
 
 ## Significance
 
