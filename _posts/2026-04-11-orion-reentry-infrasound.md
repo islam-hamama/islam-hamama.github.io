@@ -24,6 +24,20 @@ The signal arrived at **00:12:51 UTC** — approximately 5 minutes and 51 second
 
 As the Orion capsule decelerated through the atmosphere, it reached **Mach 4-5**, generating the shockwave that propagated as infrasound and was picked up by the IMS network.
 
+## Waveform
+
+The figure below shows the recorded infrasound waveform at I57US. The impulsive signal characteristic of a supersonic reentry is clearly visible, arriving at **00:12:51 UTC**.
+
+![Infrasound waveform recorded at I57US during the Artemis II Orion capsule reentry](orion-waveform.png)
+*Infrasound waveform recorded at station I57US, showing the shockwave arrival from the Orion capsule reentry on April 11, 2026.*
+
+## Signal Analysis
+
+The figure below summarizes the full analysis, including beamforming results, back-azimuth estimates, and signal coherence across the I57US array elements.
+
+![Full signal analysis of the Artemis II reentry infrasound detection](Output_Artemis II - Re-entery-Final.png)
+*Array processing and signal analysis output for the Orion capsule reentry detection. The back-azimuth of 223° and signal coherence confirm a source location consistent with the splashdown zone.*
+
 ## Significance
 
 This detection adds the **Orion capsule** to the growing list of interplanetary reentry vehicles acoustically detected by infrasound sensors, alongside:
@@ -46,6 +60,10 @@ The map below shows the splashdown location, the I57US station position, the est
           allowfullscreen>
   </iframe>
 </div>
+
+## Acknowledgements
+
+Infrasound propagation modeling was performed using [**InfraGA**](https://github.com/LANL-Seismoacoustics/infraGA), an open-source geometric acoustics ray-tracing package developed at Los Alamos National Laboratory (LANL). Atmospheric specifications for the propagation paths were generated using [**ncpag2s-clc**](https://github.com/chetzer-ncpa/ncpag2s-clc), a command-line client for the Ground-to-Space (G2S) atmospheric profile service developed by the NCPA.
 
 ---
 
