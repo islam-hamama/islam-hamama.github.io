@@ -60,14 +60,14 @@
   <meta name="twitter:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
   <meta name="twitter:description" content="{{ seo_description }}">
   <meta name="twitter:url" content="{{ canonical_url }}">
-  {% if page.header.og_image %}
-    <meta property="og:image" content="{% if page.header.og_image contains "://"
-   %}{{ page.header.og_image }}{% else %}{{ page.header.og_image | prepend:     
-  site.url }}{% endif %}">                                                      
-  {% elsif page.header.image %}  
-  {% if page.header.image %}
+
+  {% if page.header.og_image or page.header.image %}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+    {% if page.header.og_image %}
+      <meta name="twitter:image" content="{% if page.header.og_image contains "://" %}{{ page.header.og_image }}{% else %}{{ page.header.og_image | prepend: site.url }}{% endif %}">
+    {% else %}
+      <meta name="twitter:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+    {% endif %}
   {% else %}
     <meta name="twitter:card" content="summary">
     {% if site.og_image %}
@@ -153,7 +153,7 @@
 
 <!-- Open Graph protocol data (https://ogp.me/), used by social media -->
 <meta property="og:locale" content="{{ site.locale | default: "en" }}">
-<meta property="og:site_name" content="{{ site.title }}"> 
+<meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 {% if page.date %}
   <meta property="og:type" content="article">
@@ -180,7 +180,9 @@
   </script>
 {% endif %}
 
-{% if page.header.image %}
+{% if page.header.og_image %}
+  <meta property="og:image" content="{% if page.header.og_image contains "://" %}{{ page.header.og_image }}{% else %}{{ page.header.og_image | prepend: site.url }}{% endif %}">
+{% elsif page.header.image %}
   <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% elsif page.header.overlay_image %}
   <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
