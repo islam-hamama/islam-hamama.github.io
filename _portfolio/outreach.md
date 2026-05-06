@@ -8,17 +8,6 @@ collection: portfolio
 
 ## Awards & Recognition
 
-### NRIAG Excellence Award (2021)
-
-Recipient of the **National Research Institute of Astronomy and Geophysics (NRIAG) Excellence Award** (2021) in recognition of outstanding research contributions in geophysics and infrasound monitoring.
-
----
-
-### Al Amal Science Program Award
-
-Recognized for contributions to the **Al Amal Science Education Program**, an initiative aimed at promoting scientific literacy and geophysics education among Egyptian youth.
-
----
 
 ### Outstanding Presentation Award — ISFT 2019, Thailand
 
