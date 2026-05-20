@@ -75,9 +75,6 @@ If you use SeismoFK in your research, please cite it. GitHub auto-renders `CITAT
 
 > Hamama, I. (2024–2025). *SeismoFK: Open-source FK array analysis for infrasound and seismic data.* Zenodo. [https://doi.org/10.5281/zenodo.20301796](https://doi.org/10.5281/zenodo.20301796)
 
-## Acknowledgements
-
-The array-processing methodology in SeismoFK is adapted in part from work by **Jelle Assink** (KNMI) — see the [ROSES 2021 array-processing material](https://github.com/roseseismo/roses2021/blob/main/unit08/array_processing.py).
 
 ---
 
