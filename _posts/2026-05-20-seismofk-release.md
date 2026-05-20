@@ -1,5 +1,5 @@
 ---
-title: "Announcing SeismoFK: Open-source FK Array Analysis for Infrasound and Seismic Data"
+title: "Announcing SeismoFK: Open-source FK Array Analysis for Infrasound Data"
 date: 2026-05-20
 permalink: /posts/2026/05/seismofk-release/
 image: /images/seismofk-spectrogram.jpg
@@ -18,7 +18,7 @@ tags:
   - CTBTO
 ---
 
-Today I'm releasing **[SeismoFK](https://github.com/islam-hamama/SeismoFK)** — an open-source desktop application for **frequency–wavenumber (FK) array analysis** of infrasound and seismic array data.
+Today I'm releasing **[SeismoFK](https://github.com/islam-hamama/SeismoFK)** — an open-source desktop application for **frequency–wavenumber (FK) array analysis** of infrasound array data.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20301796.svg)](https://doi.org/10.5281/zenodo.20301796)
 
@@ -26,7 +26,7 @@ If you read my [earlier post on the Artemis II Orion capsule re-entry detection]
 
 ## What SeismoFK does
 
-SeismoFK is a PyQt5 desktop application that runs sliding-window FK array analysis on infrasound or seismic array data and reports, for each time window:
+SeismoFK is a PyQt5 desktop application that runs sliding-window FK array analysis on infrasound array data and reports, for each time window:
 
 - **Semblance** (0–1 coherence measure)
 - **Fisher ratio**
