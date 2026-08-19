@@ -26,7 +26,7 @@ from your very first `print()` statement to reading, checking and fixing code wr
 an AI agent. Everything is run live in **Google Colab**, so nothing needs to be installed
 to follow along.
 
-### Part 1 — Lecture recording
+### Part 1 — Python Basics
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin-bottom:1.5em;">
   <iframe src="https://www.youtube-nocookie.com/embed/lc0ozXbO5K4" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="Python Basics + AI Agents — Part 1"></iframe>
@@ -34,11 +34,21 @@ to follow along.
 
 Direct link: [Part 1 on YouTube](https://www.youtube.com/watch?v=lc0ozXbO5K4)
 
-### Part 2 — coming soon
+### Part 2 — Python &amp; Agentic Coding
 
-The recording and any additional material for Part 2 will be posted here.
+*Normal coding · vibe coding · agentic coding with OpenCode.* One real well-logging task —
+computing net pay from raw logs — carried through all three ways of producing code, ending
+with the question the whole session turns on: **who is responsible for the final number?**
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin-bottom:1.5em;">
+  <iframe src="https://www.youtube-nocookie.com/embed/-bk-uEyAj_w" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="Python &amp; Agentic Coding — Part 2"></iframe>
+</div>
+
+Direct link: [Part 2 on YouTube](https://www.youtube.com/watch?v=-bk-uEyAj_w)
 
 ### Materials
+
+**Part 1 — Python Basics**
 
 - **[Slides — *Python Basics: From Your First Line of Code to AI Coding* (PDF)](/files/python-basics/python_basics_Hamama.pdf)**  
   The full deck used in the lecture.
@@ -46,6 +56,20 @@ The recording and any additional material for Part 2 will be posted here.
 - **[Companion notebook (Jupyter / Colab)](/files/python-basics/Python_Basics_Workshop.ipynb)**  
   Every example from the lecture as a runnable cell, using geoscience data.  
   [Open it directly in Google Colab](https://colab.research.google.com/github/islam-hamama/islam-hamama.github.io/blob/master/files/python-basics/Python_Basics_Workshop.ipynb) — no installation needed.
+
+**Part 2 — Python &amp; Agentic Coding**
+
+- **[Slides — *Python &amp; Agentic Coding: Normal · Vibe · Agentic* (PDF)](/files/python-basics/Al_Amal_18_Python_Agentic_Coding.pdf)**  
+  The full deck used in the second lecture.
+
+- **[Working notebook (Jupyter / Colab)](/files/python-basics/Al_Amal_18_Examples.ipynb)**  
+  The well-logging analysis worked step by step — reading a LAS file, cleaning nulls,
+  shale volume, porosity, water saturation, and net pay.  
+  [Open it directly in Google Colab](https://colab.research.google.com/github/islam-hamama/islam-hamama.github.io/blob/master/files/python-basics/Al_Amal_18_Examples.ipynb).
+  It reads its data from a folder named `Well_logging` in your own Google Drive — create it
+  and upload the well files shared during the session before running the notebook.
+
+**Both parts**
 
 - **[*OpenCode on Windows* — the easy, step-by-step picture guide (PDF)](/files/python-basics/OpenCode_Visual_Manual.pdf)**  
   Take-home manual for installing an AI coding agent and pointing it at your own files.
