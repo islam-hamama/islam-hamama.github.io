@@ -4,18 +4,13 @@ permalink: /volunteering/
 author_profile: true
 ---
 
-### Related Posts
-
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6937978045257396224" height="570" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6883265986024366080" height="570" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6986146786528681984" height="570" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6883269850928685059" height="570" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
----
-
+<div class="notice--info" markdown="1">
+**New — August 2026:** the *Python Basics + AI Agents* workshop recordings and materials are now
+online, right below. **[Part 1 — Python Basics](#part-1)** and
+**[Part 2 — Python &amp; Agentic Coding](#part-2)**: both lecture
+videos, both slide decks (PDF), the companion notebooks (open straight in Google Colab) and
+the *OpenCode on Windows* install guide — all free to download.
+</div>
 
 ## Python Basics + AI Agents — Pre-Al Amal 18
 
@@ -26,7 +21,7 @@ from your very first `print()` statement to reading, checking and fixing code wr
 an AI agent. Everything is run live in **Google Colab**, so nothing needs to be installed
 to follow along.
 
-### Part 1 — Python Basics
+### Part 1 — Python Basics {#part-1}
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin-bottom:1.5em;">
   <iframe src="https://www.youtube-nocookie.com/embed/lc0ozXbO5K4" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="Python Basics + AI Agents — Part 1"></iframe>
@@ -34,7 +29,7 @@ to follow along.
 
 Direct link: [Part 1 on YouTube](https://www.youtube.com/watch?v=lc0ozXbO5K4)
 
-### Part 2 — Python &amp; Agentic Coding
+### Part 2 — Python &amp; Agentic Coding {#part-2}
 
 *Normal coding · vibe coding · agentic coding with OpenCode.* One real well-logging task —
 computing net pay from raw logs — carried through all three ways of producing code, ending
@@ -73,6 +68,19 @@ Direct link: [Part 2 on YouTube](https://www.youtube.com/watch?v=-bk-uEyAj_w)
 
 - **[*OpenCode on Windows* — the easy, step-by-step picture guide (PDF)](/files/python-basics/OpenCode_Visual_Manual.pdf)**  
   Take-home manual for installing an AI coding agent and pointing it at your own files.
+
+---
+
+
+### Related Posts
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6937978045257396224" height="570" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6883265986024366080" height="570" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6986146786528681984" height="570" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6883269850928685059" height="570" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 ---
 
