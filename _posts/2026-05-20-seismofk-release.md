@@ -22,7 +22,7 @@ tags:
 
 Today I'm releasing **[SeismoFK](https://github.com/islam-hamama/SeismoFK)** — an open-source desktop application for **frequency–wavenumber (FK) array analysis** of infrasound array data.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20301796.svg)](https://doi.org/10.5281/zenodo.20301796)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20301795.svg)](https://doi.org/10.5281/zenodo.20301795)
 
 If you read my [earlier post on the Artemis II Orion capsule re-entry detection](/posts/2026/04/orion-reentry-infrasound/), this is the tool that produced that analysis — beamforming, back-azimuth, slowness, and the multi-panel result figure all came out of SeismoFK.
 
@@ -64,7 +64,7 @@ It also forms a **delay-and-sum beam** steered to the dominant detected directio
 ## Get it
 
 - **Repository:** [github.com/islam-hamama/SeismoFK](https://github.com/islam-hamama/SeismoFK)
-- **DOI:** [10.5281/zenodo.20301796](https://doi.org/10.5281/zenodo.20301796)
+- **DOI (all versions):** [10.5281/zenodo.20301795](https://doi.org/10.5281/zenodo.20301795)
 - **License:** MIT
 - **Install:** `pip install -r requirements.txt` then `python Infra_Analysis.py`
 - **Docs:** see the in-repo [README](https://github.com/islam-hamama/SeismoFK/blob/main/README.md) and the step-by-step [USAGE.md](https://github.com/islam-hamama/SeismoFK/blob/main/USAGE.md)
@@ -75,7 +75,7 @@ Station XML data is **not** bundled — IMS infrasound metadata is subject to CT
 
 If you use SeismoFK in your research, please cite it. GitHub auto-renders `CITATION.cff` as a *"Cite this repository"* button, or you can cite directly:
 
-> Hamama, I. (2024–2025). *SeismoFK: Open-source FK array analysis for infrasound and seismic data.* Zenodo. [https://doi.org/10.5281/zenodo.20301796](https://doi.org/10.5281/zenodo.20301796)
+> Hamama, I. (2026). *SeismoFK* [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.20301795](https://doi.org/10.5281/zenodo.20301795)
 
 
 ---
