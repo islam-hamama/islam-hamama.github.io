@@ -18,6 +18,8 @@ tags:
   - CTBTO
 ---
 
+> **Update (28 September 2026):** [SeismoFK v1.2.1](/posts/2026/09/seismofk-v1-2-1/) is out, adding PMCC families, detection uncertainty, noise levels and a long-term batch CLI.
+
 Today I'm releasing **[SeismoFK](https://github.com/islam-hamama/SeismoFK)** — an open-source desktop application for **frequency–wavenumber (FK) array analysis** of infrasound array data.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20301796.svg)](https://doi.org/10.5281/zenodo.20301796)
