@@ -42,10 +42,17 @@
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));   // 2 x 2 for the four cards
+  @media (max-width: 600px) { grid-template-columns: 1fr; }
   gap: 1.1em;
   margin: 1em 0 2.2em;
 }
+
+// The theme underlines links inside page content; cards are whole-block links.
+.page__content a.work-card,
+.page__content a.work-card * { text-decoration: none; }
+
+.page__content .home-actions a { text-decoration: none; }
 
 .work-card {
   display: flex;

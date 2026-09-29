@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Islam Hamama — Infrasound & Seismoacoustics"
+title                    : "Islam Hamama"
 title_separator          : "-"
 name                     : &name "Islam Hamama"
 description              : &description "Islam Hamama — Infrasound & Seismoacoustics researcher at NRIAG, Egypt. 12+ years expertise in infrasound propagation modeling, seismo-acoustic monitoring, and IMS data processing for natural and man-made source characterization."
