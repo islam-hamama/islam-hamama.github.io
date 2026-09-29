@@ -18,7 +18,7 @@ header:
 
 ## What it does
 
-| | |
+| Capability | What you get |
 |---|---|
 | **FK beamforming** | Conventional FK with semblance, Fisher ratio and beam; **Capon (MVDR)** and **MUSIC** high-resolution slowness maps; theoretical array response |
 | **PMCC detector** | Multi-band, triplet-consistency detection grouped into **families** (one per arrival), each with **95% confidence intervals** and a flag for merged sources |
