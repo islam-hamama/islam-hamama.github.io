@@ -55,10 +55,13 @@ var toggleTheme = () => {
 // JSON data to be retrieve when the theme is switched. The listener should only be added if the data is 
 // actually present on the page.
 import { plotlyDarkLayout, plotlyLightLayout } from './theme.js';
+// Plotly (~4 MB) is not bundled into main.min.js: it is fetched from the CDN only
+// on pages that actually contain a Plotly code block.
 let plotlyElements = document.querySelectorAll("pre>code.language-plotly");
 if (plotlyElements.length > 0) {
-  document.addEventListener("readystatechange", () => {
-    if (document.readyState === "complete") {
+  const plotlyScript = document.createElement("script");
+  plotlyScript.src = "https://cdn.jsdelivr.net/npm/plotly.js-dist-min@3.3.0/plotly.min.js";
+  plotlyScript.onload = () => {
       plotlyElements.forEach((elem) => {
         // Parse the Plotly JSON data and hide it
         var jsonData = JSON.parse(elem.textContent);
@@ -77,8 +80,8 @@ if (plotlyElements.length > 0) {
         }
         Plotly.react(chartElement, jsonData.data, jsonData.layout);
       });
-    }
-  });
+  };
+  document.head.appendChild(plotlyScript);
 }
 
 /* ==========================================================================

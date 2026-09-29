@@ -1,0 +1,16 @@
+---
+layout: null
+sitemap: false
+---
+{% assign docs = site.posts | concat: site.publications | concat: site.talks | concat: site.portfolio | concat: site.teaching %}
+[
+{% for doc in docs %}{% unless doc.search == false %}  {
+    "title": {{ doc.title | jsonify }},
+    "url": {{ doc.url | relative_url | jsonify }},
+    "type": {{ doc.collection | default: "posts" | jsonify }},
+    "date": {{ doc.date | date: "%Y" | jsonify }},
+    "text": {{ doc.excerpt | default: doc.content | strip_html | normalize_whitespace | truncate: 260 | jsonify }},
+    "body": {{ doc.content | strip_html | normalize_whitespace | truncatewords: 400 | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endunless %}{% endfor %}
+]

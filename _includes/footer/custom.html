@@ -2,15 +2,22 @@
 
 <a href="/sitemap/">Sitemap</a>
 
-<!-- Support for MatJax -->
-<script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+{% comment %}
+  MathJax (~1 MB) and Mermaid are loaded only on pages that use them: a page can
+  opt in with `mathjax: true` / `mermaid: true` in its front matter, and pages whose
+  content contains $$ … $$, \( … \) or a ```mermaid block are detected automatically.
+{% endcomment %}
+{% assign page_src = page.content | default: "" %}
+{% if page.mathjax or page_src contains "$$" or page_src contains "\(" %}
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+{% endif %}
 
-<!-- Support for Mermaid -->
+{% if page.mermaid or page_src contains "```mermaid" %}
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
     mermaid.initialize({startOnLoad:true, theme:'default'});
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
+{% endif %}
 
 <!-- end custom footer snippets -->

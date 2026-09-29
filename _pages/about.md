@@ -9,9 +9,64 @@ redirect_from:
   - /about.html
 ---
 
+<p class="home-lead">I study how sound too low to hear travels through the atmosphere, and use arrays of infrasound and seismic sensors to detect and characterise its sources: explosions, earthquakes, meteors and spacecraft re-entries.</p>
+
 I am a researcher at the **Egyptian National Data Center, National Research Institute of Astronomy and Geophysics (NRIAG)**, Cairo, Egypt, with 12+ years of experience in seismic and acoustic data processing and 5 years of expertise in atmospheric infrasound numerical modeling.
 
 My research focuses on **infrasound propagation modeling**, seismo-acoustic monitoring, and the application of IMS (International Monitoring System) data to characterize natural and man-made sources — including earthquakes, chemical explosions, meteors, rocket launches, and thunderstorms.
+
+<div class="home-actions">
+  <a class="primary" href="/publications/">Publications</a>
+  <a href="/cv/">CV</a>
+  <a href="/portfolio/seismofk/">SeismoFK software</a>
+  <a href="/talks/">Talks</a>
+  <a href="mailto:islam.hamama@nriag.sci.eg">Contact</a>
+</div>
+
+## Selected Work
+
+<div class="work-grid">
+  <a class="work-card" href="/portfolio/seismofk/">
+    <img src="/images/cards/seismofk.webp" alt="SeismoFK PMCC detector window" loading="lazy" width="720" height="405">
+    <span class="work-card__body">
+      <span class="work-card__kicker">Open-source software</span>
+      <span class="work-card__title">SeismoFK</span>
+      <span class="work-card__text">FK, Capon/MUSIC and PMCC array analysis with uncertainty, noise levels and a long-term batch processor.</span>
+    </span>
+  </a>
+  <a class="work-card" href="/posts/2026/04/orion-reentry-infrasound/">
+    <img src="/images/cards/artemis.webp" alt="Infrasound waveforms from the Artemis II Orion re-entry at I57US" loading="lazy" width="720" height="405">
+    <span class="work-card__body">
+      <span class="work-card__kicker">Detection</span>
+      <span class="work-card__title">Artemis II Orion re-entry</span>
+      <span class="work-card__text">Acoustic detection and array analysis of the Orion capsule re-entry at IMS station I57US.</span>
+    </span>
+  </a>
+  <a class="work-card" href="/portfolio/perth-infrasound-system/">
+    <img src="/images/cards/perth.webp" alt="Perth infrasound array layout" loading="lazy" width="720" height="405">
+    <span class="work-card__body">
+      <span class="work-card__kicker">Instrumentation</span>
+      <span class="work-card__title">Perth infrasound system</span>
+      <span class="work-card__text">4G remote infrasound monitoring integrated with Desert Fireball Network cameras for meteor detection; still operational.</span>
+    </span>
+  </a>
+  <a class="work-card" href="/portfolio/helwan-infrasound-system/">
+    <img src="/images/cards/helwan.webp" alt="Helwan infrasound station deployment" loading="lazy" width="720" height="405">
+    <span class="work-card__body">
+      <span class="work-card__kicker">Instrumentation</span>
+      <span class="work-card__title">Helwan infrasound system</span>
+      <span class="work-card__text">4G full remote-monitoring infrasound station at the NRIAG Helwan Observatory, Egypt.</span>
+    </span>
+  </a>
+</div>
+
+## Latest News
+
+<ul class="news-list">
+{% for post in site.posts limit:3 %}
+  <li><span class="news-date">{{ post.date | date: "%b %Y" }}</span><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
 
 ## Research Interests
 
